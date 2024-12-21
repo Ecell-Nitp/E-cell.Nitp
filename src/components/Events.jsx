@@ -17,15 +17,14 @@ function Events() {
             <img
               src={e.url}
               alt="Event"
-              className="w-[100%] h-[80%] object-cover"
+              className="w-[100%] h-[87%] object-cover"
             />
             <div className="p-4">
-              <p className="text-lg font-medium">{e.name}</p>
               <Link
                 to={`/event/${e.name}`}
-                className="text-blue-500 hover:underline mt-2 block"
+                className="text-blue-500 hover:underline mt-2 block text-lg"
               >
-                more info..
+                {e.name}
               </Link>
             </div>
           </div>
