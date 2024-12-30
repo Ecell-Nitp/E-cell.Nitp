@@ -4,6 +4,7 @@ import Welcome from '../components/Welcome'
 import About from '../components/About'
 import Events from '../components/Events'
 import Team from '../components/Team'
+import Footer from '../components/Footer'
 function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ function Home() {
       <About/>
       <Events/>
       <Team/>
+      <Footer/>
     </div>
   )
 }
