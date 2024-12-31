@@ -1,6 +1,6 @@
 export const eventlist = [
   {
-    name: "Business-Simulation Workshop",
+    name: "BUSINESS SIMULATION WORKSHOP",
     url: "/BusinessSimulation/main.webp",
     details: (
       <p>
@@ -18,9 +18,9 @@ export const eventlist = [
         contributions to building a vibrant startup ecosystem at NIT Patna.
         <br /> <b>2. Interactive Session by Mr. Pratik Deo:</b> - Key skills for
         entrepreneurship and leadership were discussed, including: <b>-
-        Decision-Making techniques. - Understanding different management styles.
-        - Critical Thinking for solving complex problems. - Enhancing
-        interpersonal skills for teamwork and communication.</b> - Mr. Deo’s
+          Decision-Making techniques. - Understanding different management styles.
+          - Critical Thinking for solving complex problems. - Enhancing
+          interpersonal skills for teamwork and communication.</b> - Mr. Deo’s
         practical insights and engaging delivery captivated the audience, making
         the session both informative and interactive.
         <br /> <b>3. Business Simulation Software Demonstration:</b> - A hands-on
@@ -31,14 +31,14 @@ export const eventlist = [
         these factors affect sales and profitability. - The activity bridged the
         gap between theory and practice, offering real-time insights into market
         dynamics and business strategies.
-        <br /> <b>Conclusion</b><br/> The workshop was an enriching experience, offering
+        <br /> <b>Conclusion</b><br /> The workshop was an enriching experience, offering
         students invaluable knowledge and critical skills to develop an
         entrepreneurial mindset. It reflected E-Cell NIT Patna’s dedication to
         fostering innovation and supporting young entrepreneurs in their journey
         toward building successful startups. This initiative significantly
         contributed to strengthening the startup ecosystem at NIT Patna and
         inspired students to explore the vast opportunities in entrepreneurship.
-       
+
       </p>
     ),
     images: [
@@ -55,88 +55,88 @@ export const eventlist = [
     ],
   },
   {
-    name: "Founders Fusion",
-    url: "/Founder-fusion/main.heic",
+    name: "FOUNDERS FUSION",
+    url: "/Founder-fusion/main.jpg",
     details: (
       <p>
-<h3><strong>Founder’s Fusion: Connecting Young Minds with Industry Leaders</strong></h3>
-<p>
-  <b>Date:</b> September 23, 2023<br />
-  <b>Venue:</b> NIT Patna Campus
-</p>
-<p>
-  The <b>Entrepreneurship Cell (E-Cell)</b> at NIT Patna hosted 
-  <b>Founder’s Fusion</b>, a dynamic event designed to bridge the gap 
-  between aspiring entrepreneurs and seasoned industry professionals. 
-  This one-day program provided participants with an opportunity to 
-  interact with <b>renowned entrepreneurs</b>, pitch their ideas, and 
-  gain insights into the challenges and triumphs of building successful startups.
-</p>
-<hr />
-<h4><strong>Event Highlights</strong></h4>
+        <h3><strong>Founder’s Fusion: Connecting Young Minds with Industry Leaders</strong></h3>
+        <p>
+          <b>Date:</b> September 23, 2023<br />
+          <b>Venue:</b> NIT Patna Campus
+        </p>
+        <p>
+          The <b>Entrepreneurship Cell (E-Cell)</b> at NIT Patna hosted
+          <b>Founder’s Fusion</b>, a dynamic event designed to bridge the gap
+          between aspiring entrepreneurs and seasoned industry professionals.
+          This one-day program provided participants with an opportunity to
+          interact with <b>renowned entrepreneurs</b>, pitch their ideas, and
+          gain insights into the challenges and triumphs of building successful startups.
+        </p>
+        <hr />
+        <h4><strong>Event Highlights</strong></h4>
 
-<p>
-  <b>1. Inspirational Talks by Industry Leaders:</b><br />
-  The event featured a panel of accomplished entrepreneurs and professionals, including:
-</p>
-<ul>
-  <li><b>Harishankar Kumar</b> (Founder, Founders Community)</li>
-  <li><b>CA Pallavi Jha</b></li>
-  <li><b>Kundan Singh</b> (Founder, MyTag App)</li>
-  <li><b>Navneet Raj</b> (Founder, Credit Bharat)</li>
-  <li><b>Alice Swift</b> (Popular YouTuber)</li>
-  <li><b>Priyanka Gupta</b> (Graduate Chaiwala)</li>
-  <li><b>Rajiv Kumar</b> (Senior Manager, Canara Bank)</li>
-  <li><b>Dr. Rishi Kant</b> (PhD in Entrepreneurship, IIT Delhi)</li>
-</ul>
-<p>
-  Each speaker shared their <b>personal entrepreneurial journeys</b>, offering invaluable lessons 
-  on resilience, innovation, and problem-solving. Their stories provided participants with a 
-  glimpse into the real-world challenges of startup development.
-</p>
+        <p>
+          <b>1. Inspirational Talks by Industry Leaders:</b><br />
+          The event featured a panel of accomplished entrepreneurs and professionals, including:
+        </p>
+        <ul>
+          <li><b>Harishankar Kumar</b> (Founder, Founders Community)</li>
+          <li><b>CA Pallavi Jha</b></li>
+          <li><b>Kundan Singh</b> (Founder, MyTag App)</li>
+          <li><b>Navneet Raj</b> (Founder, Credit Bharat)</li>
+          <li><b>Alice Swift</b> (Popular YouTuber)</li>
+          <li><b>Priyanka Gupta</b> (Graduate Chaiwala)</li>
+          <li><b>Rajiv Kumar</b> (Senior Manager, Canara Bank)</li>
+          <li><b>Dr. Rishi Kant</b> (PhD in Entrepreneurship, IIT Delhi)</li>
+        </ul>
+        <p>
+          Each speaker shared their <b>personal entrepreneurial journeys</b>, offering invaluable lessons
+          on resilience, innovation, and problem-solving. Their stories provided participants with a
+          glimpse into the real-world challenges of startup development.
+        </p>
 
-<p>
-  <b>2. Student Idea Presentations:</b><br />
-  A key highlight of the event was the <b>idea-pitching session</b>, where students presented 
-  their business ideas to the panel of experts. Participants received:
-</p>
-<ul>
-  <li><b>Constructive feedback</b> on their pitches, helping refine their concepts.</li>
-  <li>An interactive platform to showcase their <b>creativity</b> and address market challenges effectively.</li>
-</ul>
+        <p>
+          <b>2. Student Idea Presentations:</b><br />
+          A key highlight of the event was the <b>idea-pitching session</b>, where students presented
+          their business ideas to the panel of experts. Participants received:
+        </p>
+        <ul>
+          <li><b>Constructive feedback</b> on their pitches, helping refine their concepts.</li>
+          <li>An interactive platform to showcase their <b>creativity</b> and address market challenges effectively.</li>
+        </ul>
 
-<p>
-  <b>3. Networking Opportunities:</b><br />
-  The event served as a platform for meaningful connections, enabling participants to:
-</p>
-<ul>
-  <li>Engage directly with <b>industry leaders</b> and mentors.</li>
-  <li>Exchange ideas and explore potential collaborations.</li>
-  <li>Gain exposure to startup resources at NIT Patna, such as the <b>Incubation Center</b> and <b>Tinkering Lab</b>.</li>
-</ul>
+        <p>
+          <b>3. Networking Opportunities:</b><br />
+          The event served as a platform for meaningful connections, enabling participants to:
+        </p>
+        <ul>
+          <li>Engage directly with <b>industry leaders</b> and mentors.</li>
+          <li>Exchange ideas and explore potential collaborations.</li>
+          <li>Gain exposure to startup resources at NIT Patna, such as the <b>Incubation Center</b> and <b>Tinkering Lab</b>.</li>
+        </ul>
 
-<p>
-  <b>4. Guidance on Startup Ecosystem:</b><br />
-  - <b>Dr. Om Ji Shukla</b>, Professor In-Charge of E-Cell, emphasized the importance of fostering 
-  a <b>startup culture</b> at NIT Patna.<br />
-  - <b>Professor Bharat Gupta</b>, overseeing the <b>Incubation Center</b>, encouraged students to 
-  utilize resources like the Tinkering Lab to turn their innovative ideas into viable ventures.
-</p>
+        <p>
+          <b>4. Guidance on Startup Ecosystem:</b><br />
+          - <b>Dr. Om Ji Shukla</b>, Professor In-Charge of E-Cell, emphasized the importance of fostering
+          a <b>startup culture</b> at NIT Patna.<br />
+          - <b>Professor Bharat Gupta</b>, overseeing the <b>Incubation Center</b>, encouraged students to
+          utilize resources like the Tinkering Lab to turn their innovative ideas into viable ventures.
+        </p>
 
-<h4><strong>Key Takeaways</strong></h4>
-<ul>
-  <li><b>Practical Knowledge:</b> Students gained hands-on insights into entrepreneurship and startup development.</li>
-  <li><b>Expert Advice:</b> Industry leaders shared actionable tips on building, scaling, and sustaining startups.</li>
-  <li><b>Enhanced Skills:</b> The idea-pitching session improved participants' presentation and communication abilities.</li>
-  <li><b>Startup Ecosystem Awareness:</b> Students learned about resources and funding opportunities available to support their entrepreneurial ambitions.</li>
-</ul>
+        <h4><strong>Key Takeaways</strong></h4>
+        <ul>
+          <li><b>Practical Knowledge:</b> Students gained hands-on insights into entrepreneurship and startup development.</li>
+          <li><b>Expert Advice:</b> Industry leaders shared actionable tips on building, scaling, and sustaining startups.</li>
+          <li><b>Enhanced Skills:</b> The idea-pitching session improved participants' presentation and communication abilities.</li>
+          <li><b>Startup Ecosystem Awareness:</b> Students learned about resources and funding opportunities available to support their entrepreneurial ambitions.</li>
+        </ul>
 
-<p>
-  <b>Founder’s Fusion</b> was a resounding success, empowering participants with the confidence, 
-  knowledge, and connections necessary to embark on their entrepreneurial journeys. 
-  It showcased the commitment of <b>E-Cell NIT Patna</b> to nurturing the next generation of 
-  innovative leaders and fostering a vibrant startup ecosystem on campus.
-</p>
+        <p>
+          <b>Founder’s Fusion</b> was a resounding success, empowering participants with the confidence,
+          knowledge, and connections necessary to embark on their entrepreneurial journeys.
+          It showcased the commitment of <b>E-Cell NIT Patna</b> to nurturing the next generation of
+          innovative leaders and fostering a vibrant startup ecosystem on campus.
+        </p>
 
       </p>
     ),
@@ -150,42 +150,42 @@ export const eventlist = [
     ],
   },
   {
-    name: "Youth-Jam",
+    name: "YOUTH JAM",
     url: "/YouthJam/main.heic",
     details: (
       <p>
-        
-        <b>Dates</b>: January 12–16, 2024 <br/><b>Venue</b>: NIT Patna
-        Campus<br/> The <b>Entrepreneurship Cell (E-Cell) at NIT Patna</b> organized <b>Youth
-        Jam 2024</b>, a 5-day extravaganza aimed at fostering entrepreneurial
+
+        <b>Dates</b>: January 12–16, 2024 <br /><b>Venue</b>: NIT Patna
+        Campus<br /> The <b>Entrepreneurship Cell (E-Cell) at NIT Patna</b> organized <b>Youth
+          Jam 2024</b>, a 5-day extravaganza aimed at fostering entrepreneurial
         spirit and helping participants transform innovative ideas into
         actionable business plans. Aligned with the occasion of <b>Swami
-        Vivekananda Jayanti</b>, the event was a comprehensive platform for
+          Vivekananda Jayanti</b>, the event was a comprehensive platform for
         learning, networking, and pitching ideas to experienced industry
-        leaders.<br/> Day-Wise Highlights <br/><b>Day 1: Inauguration and
-        Motivation</b> - The event began with an inaugural Deep Prajwalan
+        leaders.<br /> Day-Wise Highlights <br /><b>Day 1: Inauguration and
+          Motivation</b> - The event began with an inaugural Deep Prajwalan
         ceremony led by <b>Dr. Om Ji Shukla, Professor In-Charge of E-Cell,
-        and Pratik Deo, a renowned startup consultant</b>. - Discussions
+          and Pratik Deo, a renowned startup consultant</b>. - Discussions
         centered around Swami Vivekananda’s influence on youth and the
         significance of their role in nation-building. - Motivational addresses
         inspired participants to explore entrepreneurship as a pathway to
-        personal and societal growth.<br/> <b>Day 2: Insights into Entrepreneurship</b>
+        personal and societal growth.<br /> <b>Day 2: Insights into Entrepreneurship</b>
         - Keynote Speaker: Mr. Pratik Deo, Co-Founder of iDigiNXT, shared
         his entrepreneurial journey and experiences in establishing a startup. -
         Key topics covered: - Fundamentals of entrepreneurship and business
         ideation. - The Bihar Government’s Startup Scheme, which supports
         innovative ideas with funding. - Strategies for turning ideas into
-        actionable plans.<br/> <b>Day 3: The Art of Pitching</b> - The day featured a
+        actionable plans.<br /> <b>Day 3: The Art of Pitching</b> - The day featured a
         masterclass on pitch presentations by Mr. Deo, where he: - Shared
         essential components of an impactful pitch. - Explained how to tailor
         presentations to captivate potential investors. - Demonstrated
-        successful pitching techniques using examples from his startup.<br/> <b>Day 4:
-        Pitching Competition (Pitch-Deck)</b> - Participants worked in teams to
+        successful pitching techniques using examples from his startup.<br /> <b>Day 4:
+          Pitching Competition (Pitch-Deck)</b> - Participants worked in teams to
         present their startup ideas. - Expert Feedback: Mr. Deo and other
         mentors provided valuable insights, helping students refine their
         concepts and strategies. - The competition fostered collaboration and
         allowed students to showcase their creativity and problem-solving
-        skills.<br/> <b>Day 5: National Startup Day & Prize Distribution</b> - The event
+        skills.<br /> <b>Day 5: National Startup Day & Prize Distribution</b> - The event
         concluded with a grand celebration of National Startup Day,
         featuring distinguished guests: - Dr. Om Ji Shukla (Professor
         In-Charge, E-Cell) - Dr. Bharat Gupta (Professor In-Charge,
@@ -193,18 +193,18 @@ export const eventlist = [
         discussions highlighted the evolving startup ecosystem in India,
         emphasizing opportunities for budding entrepreneurs. - Winners of the
         Pitch-Deck competition were recognized and awarded for their
-        exceptional business ideas.<br/> <b>Key Outcomes of Youth Jam 2024</b><br/>
+        exceptional business ideas.<br /> <b>Key Outcomes of Youth Jam 2024</b><br />
         <b>- Skill Development:</b> Participants gained practical knowledge about
-        pitching, investor communication, and business modeling.<br/> <b>- Networking
-        Opportunities:</b> Students interacted with industry experts, fostering
-        connections that could support their entrepreneurial journey.<br/> <b>-
-        Startup Culture Promotion:</b> The event underscored E-Cell NIT Patna’s
-        commitment to encouraging innovation and startup incubation on campus.<br/>
+        pitching, investor communication, and business modeling.<br /> <b>- Networking
+          Opportunities:</b> Students interacted with industry experts, fostering
+        connections that could support their entrepreneurial journey.<br /> <b>-
+          Startup Culture Promotion:</b> The event underscored E-Cell NIT Patna’s
+        commitment to encouraging innovation and startup incubation on campus.<br />
         Youth Jam 2024 not only inspired students to embrace entrepreneurship
         but also equipped them with the tools and confidence to turn their ideas
         into reality. The event was a resounding success, leaving participants
         energized and ready to contribute to India’s dynamic startup ecosystem.
-        
+
       </p>
     ),
     images: [
@@ -217,87 +217,87 @@ export const eventlist = [
     ],
   },
   {
-    name: "Selenia",
-    url: "/Selenia/main.heic",
+    name: "SELENIA",
+    url: "/Selenia/main.jpg",
     details: (
+      <p>
+        <h3><strong>Selenia: Showcasing Entrepreneurial Flair at Navyakalam</strong></h3>
         <p>
-            <h3><strong>Selenia: Showcasing Entrepreneurial Flair at Navyakalam</strong></h3>
-<p>
-  <b>Date:</b> January 26, 2024<br />
-  <b>Venue:</b> NIT Patna Campus
-</p>
-<p>
-  As part of the annual **Techno-Cultural Fest, Navyakalam**, the <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna hosted 
-  <b>Selenia</b>, a dynamic sub-event focused on testing and enhancing participants' 
-  entrepreneurial skills through a competitive and engaging format. 
-  The event challenged students to exhibit their creativity, persuasion, and adaptability 
-  in a simulated product-selling environment.
-</p>
-<hr />
-<h4><strong>Event Highlights</strong></h4>
-
-<p>
-  <b>1. Diverse Product Range:</b><br />
-  Participants were presented with a mix of random products, ranging from everyday items 
-  to unconventional novelties. The variety demanded that teams employ innovative approaches 
-  to market and sell their assigned products effectively.
-</p>
-
-<p>
-  <b>2. Competition Format:</b><br />
-  - Participants formed teams and were tasked with devising unique sales strategies to promote their products.<br />
-  - Teams had to demonstrate quick thinking, adaptability, and an understanding of customer psychology.<br />
-  - Each team had a limited timeframe to pitch their product, ensuring high energy and dynamic interaction.
-</p>
-
-<p>
-  <b>3. Judging Criteria:</b><br />
-  Teams were evaluated based on the following parameters:
-</p>
-<ul>
-  <li><b>Creativity:</b> Originality and uniqueness of the sales pitch.</li>
-  <li><b>Persuasiveness:</b> Ability to effectively communicate product benefits and convince potential buyers.</li>
-  <li><b>Adaptability:</b> Flexibility in responding to customer feedback and market challenges.</li>
-  <li><b>Sales Performance:</b> Quantity and quality of products sold within the stipulated time.</li>
-</ul>
-
-<p>
-  <b>4. Vibrant Atmosphere:</b><br />
-  The event was infused with enthusiasm and energy as teams competed in a lively environment, 
-  engaging with attendees and showcasing their entrepreneurial spirit. The vibrant interactions 
-  added to the dynamic atmosphere of the Techno-Cultural Fest.
-</p>
-
-<p>
-  <b>5. Learning and Networking Opportunities:</b><br />
-  - Participants gained insights into real-world sales and marketing strategies.<br />
-  - The event provided a platform for students to network with peers and industry professionals attending the fest.
-</p>
-
-<h4><strong>Winners and Recognition</strong></h4>
-<p>
-  Exceptional participants were recognized for their performance across the judging criteria. 
-  Winners were awarded prizes and certificates, acknowledging their **entrepreneurial ingenuity** 
-  and creativity.
-</p>
-
-<h4><strong>Conclusion</strong></h4>
-<p>
-  <b>Selenia</b> emerged as a standout event of Navyakalam, offering participants a practical 
-  experience in product pitching and sales. The event not only fostered innovation and competition 
-  but also underlined <b>E-Cell NIT Patna’s</b> commitment to nurturing entrepreneurial skills. 
-  Through <b>Selenia</b>, students learned the value of creativity, adaptability, and collaboration in the 
-  entrepreneurial journey, making it an unforgettable highlight of the festival.
-</p>
-
+          <b>Date:</b> January 26, 2024<br />
+          <b>Venue:</b> NIT Patna Campus
         </p>
+        <p>
+          As part of the annual **Techno-Cultural Fest, Navyakalam**, the <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna hosted
+          <b>Selenia</b>, a dynamic sub-event focused on testing and enhancing participants'
+          entrepreneurial skills through a competitive and engaging format.
+          The event challenged students to exhibit their creativity, persuasion, and adaptability
+          in a simulated product-selling environment.
+        </p>
+        <hr />
+        <h4><strong>Event Highlights</strong></h4>
+
+        <p>
+          <b>1. Diverse Product Range:</b><br />
+          Participants were presented with a mix of random products, ranging from everyday items
+          to unconventional novelties. The variety demanded that teams employ innovative approaches
+          to market and sell their assigned products effectively.
+        </p>
+
+        <p>
+          <b>2. Competition Format:</b><br />
+          - Participants formed teams and were tasked with devising unique sales strategies to promote their products.<br />
+          - Teams had to demonstrate quick thinking, adaptability, and an understanding of customer psychology.<br />
+          - Each team had a limited timeframe to pitch their product, ensuring high energy and dynamic interaction.
+        </p>
+
+        <p>
+          <b>3. Judging Criteria:</b><br />
+          Teams were evaluated based on the following parameters:
+        </p>
+        <ul>
+          <li><b>Creativity:</b> Originality and uniqueness of the sales pitch.</li>
+          <li><b>Persuasiveness:</b> Ability to effectively communicate product benefits and convince potential buyers.</li>
+          <li><b>Adaptability:</b> Flexibility in responding to customer feedback and market challenges.</li>
+          <li><b>Sales Performance:</b> Quantity and quality of products sold within the stipulated time.</li>
+        </ul>
+
+        <p>
+          <b>4. Vibrant Atmosphere:</b><br />
+          The event was infused with enthusiasm and energy as teams competed in a lively environment,
+          engaging with attendees and showcasing their entrepreneurial spirit. The vibrant interactions
+          added to the dynamic atmosphere of the Techno-Cultural Fest.
+        </p>
+
+        <p>
+          <b>5. Learning and Networking Opportunities:</b><br />
+          - Participants gained insights into real-world sales and marketing strategies.<br />
+          - The event provided a platform for students to network with peers and industry professionals attending the fest.
+        </p>
+
+        <h4><strong>Winners and Recognition</strong></h4>
+        <p>
+          Exceptional participants were recognized for their performance across the judging criteria.
+          Winners were awarded prizes and certificates, acknowledging their **entrepreneurial ingenuity**
+          and creativity.
+        </p>
+
+        <h4><strong>Conclusion</strong></h4>
+        <p>
+          <b>Selenia</b> emerged as a standout event of Navyakalam, offering participants a practical
+          experience in product pitching and sales. The event not only fostered innovation and competition
+          but also underlined <b>E-Cell NIT Patna’s</b> commitment to nurturing entrepreneurial skills.
+          Through <b>Selenia</b>, students learned the value of creativity, adaptability, and collaboration in the
+          entrepreneurial journey, making it an unforgettable highlight of the festival.
+        </p>
+
+      </p>
     ),
     images: ["/Selenia/img1.png", "/Selenia/img2.png", "/Selenia/img3.png"],
   },
   {
-    id: "cricket-mania", 
-    name: "Cricket Mania", 
-    url: "/CricketMania/main.heic", 
+    id: "CRICKET MANIA",
+    name: "CRICKET MANIA",
+    url: "/CricketMania/main.jpg",
     details: (
       <div>
         <h3><strong>Cricket Mania: A Dynamic Blend of Knowledge and Strategy</strong></h3>
@@ -306,9 +306,9 @@ export const eventlist = [
           <b>Venue:</b> NIT Patna Campus
         </p>
         <p>
-          As a part of the annual Techno-Cultural Fest, Navyakalam, the <b>Entrepreneurship Cell (E-Cell)</b> of 
-          NIT Patna hosted <b>Cricket Mania</b>, a thrilling sub-event that brought together the excitement of 
-          cricket with the analytical mindset of entrepreneurship. Designed to challenge participants' knowledge, 
+          As a part of the annual Techno-Cultural Fest, Navyakalam, the <b>Entrepreneurship Cell (E-Cell)</b> of
+          NIT Patna hosted <b>Cricket Mania</b>, a thrilling sub-event that brought together the excitement of
+          cricket with the analytical mindset of entrepreneurship. Designed to challenge participants' knowledge,
           teamwork, and problem-solving abilities, the event attracted enthusiastic teams from across the campus.
         </p>
         <hr />
@@ -319,19 +319,19 @@ export const eventlist = [
         </p>
         <ul>
           <li>
-            <b>Round 1 – Menti Quiz:</b> An interactive quiz session where teams answered questions 
-            related to entrepreneurship, innovation, and cricket. This round tested their knowledge and 
+            <b>Round 1 – Menti Quiz:</b> An interactive quiz session where teams answered questions
+            related to entrepreneurship, innovation, and cricket. This round tested their knowledge and
             reflexes in a fast-paced environment.
           </li>
           <li>
-            <b>Round 2 – Question and Answer Session:</b> Teams delved into a problem-solving segment 
-            where they showcased their analytical skills and entrepreneurial acumen. The session encouraged 
+            <b>Round 2 – Question and Answer Session:</b> Teams delved into a problem-solving segment
+            where they showcased their analytical skills and entrepreneurial acumen. The session encouraged
             dynamic discussions and quick decision-making, reflecting real-world business challenges.
           </li>
         </ul>
         <p>
           <b>2. Team Collaboration:</b><br />
-          Each team consisted of three members who worked together to tackle the challenges. The format 
+          Each team consisted of three members who worked together to tackle the challenges. The format
           emphasized the importance of teamwork, strategy, and effective communication under pressure.
         </p>
         <p>
@@ -342,84 +342,84 @@ export const eventlist = [
         </p>
         <h4><strong>Conclusion</strong></h4>
         <p>
-          <b>Cricket Mania</b> was more than just a competition—it was an enriching experience that blended 
-          fun with learning. The event highlighted the entrepreneurial spirit of the participants and underscored 
-          the value of teamwork and strategic thinking in overcoming challenges. Organized with great enthusiasm 
-          by <b>E-Cell NIT Patna</b>, <b>Cricket Mania</b> became a memorable part of Navyakalam 2024, inspiring 
+          <b>Cricket Mania</b> was more than just a competition—it was an enriching experience that blended
+          fun with learning. The event highlighted the entrepreneurial spirit of the participants and underscored
+          the value of teamwork and strategic thinking in overcoming challenges. Organized with great enthusiasm
+          by <b>E-Cell NIT Patna</b>, <b>Cricket Mania</b> became a memorable part of Navyakalam 2024, inspiring
           students to think creatively and collaboratively.
         </p>
       </div>
     ),
-    images: ["/CricketMania/p1.heic", "/CricketMania/p2.heic"], 
+    images: ["/CricketMania/p1.heic", "/CricketMania/p2.heic"],
   },
-  
+
   {
-    name: "Chandrayan-3 Poster Making",
+    name: "CHANDRAYAN-III CELEBRATION",
     url: "/Chandrayan-3/main.heic",
     details: (
+      <p>
+        <h3><strong>Chandrayaan 3 Poster Making Competition: Celebrating India's Lunar Triumph</strong></h3>
         <p>
-            <h3><strong>Chandrayaan 3 Poster Making Competition: Celebrating India's Lunar Triumph</strong></h3>
-<p>
-  <b>Date:</b> September 14, 2023<br />
-  <b>Time:</b> 5:00 PM onwards<br />
-  <b>Venue:</b> NIT Patna Campus
-</p>
-<p>
-  The <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna celebrated the historic success of 
-  <b>Chandrayaan 3</b>, India's third lunar mission, with an engaging 
-  <b>Poster Making Competition</b>. The event provided a platform for students to 
-  showcase their creativity and pay tribute to India’s remarkable achievements in space exploration.
-</p>
-<hr />
-<h4><strong>Event Highlights</strong></h4>
-
-<p>
-  <b>1. Celebration of Chandrayaan 3’s Success:</b><br />
-  - Students, faculty members, and space enthusiasts gathered to honor the 
-  accomplishments of India's lunar exploration program.<br />
-  - The event created a sense of pride and unity among the attendees, highlighting 
-  the nation’s contributions to space science.
-</p>
-
-<p>
-  <b>2. Poster Making Competition:</b><br />
-  - Participants were tasked with creating posters that depicted the achievements of Chandrayaan 3.<br />
-  - The competition encouraged students to explore their artistic talents while gaining 
-  a deeper appreciation for space exploration.<br />
-  - A panel of esteemed judges evaluated the posters based on <b>creativity</b>, <b>relevance to the theme</b>, 
-  and <b>knowledge about the mission</b>.
-</p>
-
-<p>
-  <b>3. Enlightening Discussions:</b><br />
-  - Faculty members and experts conducted discussions on the significance of Chandrayaan 3.<br />
-  - Presentations highlighted the mission’s scientific objectives and its impact on India’s space program.
-</p>
-
-<p>
-  <b>4. Prizes and Recognition:</b><br />
-  - Winners were awarded prizes and certificates of excellence for their outstanding work.<br />
-  - Their contributions were celebrated during a commemorative ceremony, acknowledging their creativity and passion.
-</p>
-
-<h4><strong>Conclusion</strong></h4>
-<p>
-  The <b>Chandrayaan 3 Poster Making Competition</b> was a resounding success, celebrating India’s 
-  advancements in space exploration while fostering creativity and innovation among students. 
-  Organized by <b>E-Cell NIT Patna</b>, the event inspired participants to appreciate the 
-  importance of scientific achievements and innovation, making it a memorable occasion for the campus community.
-</p>
-
+          <b>Date:</b> September 14, 2023<br />
+          <b>Time:</b> 5:00 PM onwards<br />
+          <b>Venue:</b> NIT Patna Campus
         </p>
+        <p>
+          The <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna celebrated the historic success of
+          <b>Chandrayaan 3</b>, India's third lunar mission, with an engaging
+          <b>Poster Making Competition</b>. The event provided a platform for students to
+          showcase their creativity and pay tribute to India’s remarkable achievements in space exploration.
+        </p>
+        <hr />
+        <h4><strong>Event Highlights</strong></h4>
+
+        <p>
+          <b>1. Celebration of Chandrayaan 3’s Success:</b><br />
+          - Students, faculty members, and space enthusiasts gathered to honor the
+          accomplishments of India's lunar exploration program.<br />
+          - The event created a sense of pride and unity among the attendees, highlighting
+          the nation’s contributions to space science.
+        </p>
+
+        <p>
+          <b>2. Poster Making Competition:</b><br />
+          - Participants were tasked with creating posters that depicted the achievements of Chandrayaan 3.<br />
+          - The competition encouraged students to explore their artistic talents while gaining
+          a deeper appreciation for space exploration.<br />
+          - A panel of esteemed judges evaluated the posters based on <b>creativity</b>, <b>relevance to the theme</b>,
+          and <b>knowledge about the mission</b>.
+        </p>
+
+        <p>
+          <b>3. Enlightening Discussions:</b><br />
+          - Faculty members and experts conducted discussions on the significance of Chandrayaan 3.<br />
+          - Presentations highlighted the mission’s scientific objectives and its impact on India’s space program.
+        </p>
+
+        <p>
+          <b>4. Prizes and Recognition:</b><br />
+          - Winners were awarded prizes and certificates of excellence for their outstanding work.<br />
+          - Their contributions were celebrated during a commemorative ceremony, acknowledging their creativity and passion.
+        </p>
+
+        <h4><strong>Conclusion</strong></h4>
+        <p>
+          The <b>Chandrayaan 3 Poster Making Competition</b> was a resounding success, celebrating India’s
+          advancements in space exploration while fostering creativity and innovation among students.
+          Organized by <b>E-Cell NIT Patna</b>, the event inspired participants to appreciate the
+          importance of scientific achievements and innovation, making it a memorable occasion for the campus community.
+        </p>
+
+      </p>
     ),
     images: [
       "/Chandrayan-3/main.heic",
-        "/Chandrayan-3/p1.heic",
-        "/Chandrayan-3/p2.heic",
-        "/Chandrayan-3/p3.heic",
-        "/Chandrayan-3/p4.png",
-        "/Chandrayan-3/p5.png",
-        "/Chandrayan-3/p6.png"
+      "/Chandrayan-3/p1.heic",
+      "/Chandrayan-3/p2.heic",
+      "/Chandrayan-3/p3.heic",
+      "/Chandrayan-3/p4.png",
+      "/Chandrayan-3/p5.png",
+      "/Chandrayan-3/p6.png"
 
     ],
   },
