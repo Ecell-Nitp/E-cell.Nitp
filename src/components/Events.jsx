@@ -1,5 +1,5 @@
 import React from "react";
-import { eventlist } from "../store/eventlist"; // Ensure eventlist is correctly imported and populated
+import { eventlist } from "../store/eventlist";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
@@ -17,7 +17,7 @@ function Events() {
       </h2>
 
       {/* Events Grid */}
-      <div className="flex flex-wrap w-full justify-center gap-6">
+      <div className="flex flex-wrap w-full justify-center gap-6 max-w-6xl">
         {eventlist.map((e, index) => (
           <motion.div
             variants={fadeIn(
@@ -28,21 +28,25 @@ function Events() {
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
             key={index}
-            className="w-[90%] md:w-[30%] bg-white hover:rounded-lg hover:shadow-lg overflow-hidden transition-all"
+            className="w-[90%] sm:w-[45%] md:w-[30%] bg-white rounded-lg shadow-md hover:shadow-lg transition-all overflow-hidden flex flex-col h-[400px]"
           >
-            {/* Event Image */}
-            <img
-              src={e.url}
-              alt="Event"
-              className="w-full h-[250px] md:h-[350px] object-cover"
-            />
+            {/* Event Image Container */}
+            <div className="flex-1 min-h-0 relative overflow-hidden">
+              <img
+                src={e.url}
+                alt={e.name}
+                className="absolute top-0 left-0 w-full h-full object-contain object-center p-2"
+              />
+            </div>
+            
             {/* Event Details */}
-            <div className="p-4">
+            <div className="p-4 border-t border-gray-100">
               <Link
                 to={`/event/${e.name}`}
-                className="text-blue-500 hover:underline block text-lg font-medium"
+                className="text-blue-600 hover:text-blue-800 text-lg font-medium flex justify-between items-center"
               >
-                {e.name} <span>&#8594;</span>
+                {e.name}
+                <span className="text-gray-500">→</span>
               </Link>
             </div>
           </motion.div>
@@ -50,8 +54,8 @@ function Events() {
       </div>
 
       {/* All Events Button */}
-      <button className="px-4 py-2 font-bold border-2 w-fit text-center hover:bg-gray-400 hover:text-blue-700 rounded-full">
-        All Past Events
+      <button className="px-6 py-2 font-medium border-2 border-gray-300 rounded-full hover:bg-gray-100 transition-colors mt-6">
+        View All Past Events
       </button>
     </div>
   );

@@ -423,4 +423,60 @@ export const eventlist = [
 
     ],
   },
+  {
+    name: "MISSION HEALTHY BHARAT",
+    url: "/mission-healthy-bharat/main.jpeg",
+    details: (
+      <p>
+        <h3><strong>Mission Healthy Bharat: Awareness Campaign at NIT Patna</strong></h3>
+        <p>
+          <b>Date:</b> March 26, 2025<br />
+          <b>Time:</b> 5:30 PM - 6:30 PM<br />
+          <b>Venue:</b> CV Raman Hall, NIT Patna
+        </p>
+        <p>
+          <b>Mission Healthy Bharat</b> arrived at NIT Patna with a dynamic awareness campaign focusing on four critical societal issues: <b>Health Education</b>, <b>Animal Cruelty</b>, <b>Climate Change</b>, and <b>Youth Empowerment</b>. The event aimed to inspire students to contribute to a healthier, kinder, and sustainable future.
+        </p>
+        <hr />
+        <h4><strong>Campaign Focus Areas</strong></h4>
+  
+        <p>
+          <b>1. Health Education – Empowering Lives:</b><br />
+          - Interactive sessions emphasized the importance of preventive healthcare and mental well-being.<br />
+          - Experts shared knowledge on nutrition, hygiene, and disease prevention to foster informed lifestyles.
+        </p>
+  
+        <p>
+          <b>2. Animal Cruelty – Choose Kindness:</b><br />
+          - Discussions highlighted ethical treatment of animals and alternatives to cruelty.<br />
+          - Students pledged to adopt compassionate practices and support animal welfare initiatives.
+        </p>
+  
+        <p>
+          <b>3. Climate Change – Protect Our Planet:</b><br />
+          - Awareness drives on reducing carbon footprints, waste management, and sustainable living.<br />
+          - Calls to action included tree-planting commitments and eco-friendly campus practices.
+        </p>
+  
+        <p>
+          <b>4. Youth Empowerment – Social Upliftment:</b><br />
+          - Workshops encouraged leadership, community service, and entrepreneurial thinking.<br />
+          - Success stories of youth-led initiatives inspired participants to drive positive change.
+        </p>
+  
+        <h4><strong>Event Highlights</strong></h4>
+        <p>
+          - Engaging talks by activists, doctors, and environmentalists.<br />
+          - Pledge ceremonies and interactive Q&A sessions.<br />
+          - Distribution of educational pamphlets and eco-friendly merchandise.
+        </p>
+        <p>
+          The <b>Mission Healthy Bharat</b> campaign successfully ignited a spirit of responsibility and activism among NIT Patna students. By addressing health, compassion, sustainability, and leadership, the event paved the way for a collective movement toward a better society. 
+        </p>
+      </p>
+    ),
+    images: [
+      "/mission-healthy-bharat/main.jpeg",
+    ],
+  },
 ];
