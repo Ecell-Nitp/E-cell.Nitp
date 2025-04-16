@@ -423,7 +423,6 @@ export const eventlist = [
 
     ],
   },
-  
     {
       name: "Youth_Jam_2025",
       url: "/YouthJam2025/main.jpg",
@@ -524,6 +523,4 @@ export const eventlist = [
         "/MHB/p5.jpg",
       ]
     }
-    
-    
 ];
