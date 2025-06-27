@@ -1,5 +1,105 @@
 export const eventlist = [
   {
+      name: "Youth_Jam_2025",
+      url: "/YouthJam2025/main.jpg",
+      details: (
+        <p>
+          <h3><strong>Youth Jam 2025: Celebrating Culture, Knowledge & Growth</strong></h3>
+          <p>
+            <b>Date:</b> January 11-12, 2025<br />
+            <b>Venue:</b> Vishweshwaraya Hall, NIT Patna
+          </p>
+          <p>
+            The <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna successfully hosted <b>Youth Jam 2025</b>, a vibrant two-day event
+            aimed at fostering intellectual development, cultural enrichment, and holistic growth among students. With enthusiastic
+            participation from the student community, the event became a true celebration of youth empowerment and creativity.
+          </p>
+          <hr />
+          <h4><strong>Event Highlights</strong></h4>
+    
+          <p>
+            <b>Day 1: January 11, 2025</b><br />
+            - Inaugural session by Dr. Om Ji Shukla, highlighting the importance of youth initiatives and innovation.<br />
+            - A dynamic Quiz Competition energized the participants and tested their knowledge and reflexes.
+          </p>
+    
+          <p>
+            <b>Day 2: January 12, 2025</b><br />
+            - Saraswati Vandana set a serene tone for the day.<br />
+            - A keynote session on Swami Vivekananda’s teachings, inspiring self-awareness and leadership.<br />
+            - Vedic Mathematics session by Shri Ramanand Acharya Ji enhanced problem-solving skills.<br />
+            - Yoga session by Shri Shwetank Anand Ji focused on mental and physical well-being.<br />
+            - Prize distribution for quiz winners acknowledged student achievements.<br />
+            - Concluding address by Dr. Om Ji Shukla emphasizing holistic development and future leadership.
+          </p>
+    
+          <h4><strong>Conclusion</strong></h4>
+          <p>
+            Youth Jam 2025 was a resounding success, offering a unique blend of tradition, intellect, and wellness.
+            Organized by E-Cell NIT Patna, the event showcased its commitment to nurturing young minds and building
+            a strong foundation for future leaders and innovators.
+          </p>
+        </p>
+      ),
+      images: [
+        "/YouthJam2025/main.jpg",
+        "/YouthJam2025/p1.jpg",
+        "/YouthJam2025/p2.jpg",
+        "/YouthJam2025/p3.jpg",
+        "/YouthJam2025/p4.jpg",
+        "/YouthJam2025/p5.jpg",
+        "YouthJam2025/p6.jpg",
+        "/YouthJam2025/p7.jpg",
+      ],
+  },
+  {
+    name: "Mission Healthy Bharat",
+    url: "/MHB/main.jpg",
+    details: (
+      <p>
+        <h3><strong>📢 Mission Healthy Bharat at NIT Patna! 🚴‍♀✨</strong></h3>
+        <p>
+          <b>Date:</b> March 26, 2025<br />
+          <b>Time:</b> 5:30 PM – 6:30 PM<br />
+          <b>Venue:</b> CV Raman Hall, NIT Patna
+        </p>
+        <p>
+          The <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna proudly organized <b>Mission Healthy Bharat</b>, an impactful
+          awareness campaign addressing four major social and environmental concerns. With enthusiastic participation and
+          inspiring discussions, the event created a powerful wave of awareness and motivation across campus.
+        </p>
+        <hr />
+        <h4><strong>Campaign Focus Areas</strong></h4>
+        <p>
+          ✅ <b>Health Education</b> – Empowering lives with the right knowledge! 📚🏥<br />
+          ✅ <b>Animal Cruelty</b> – Choose kindness, say no to cruelty! 🐾❌<br />
+          ✅ <b>Climate Change</b> – Protect nature, secure the future! 🌍🌿<br />
+          ✅ <b>Youth Empowerment</b> – Taking a step towards social upliftment! 🤝💡
+        </p>
+  
+        <h4><strong>Special Guest Appearance</strong></h4>
+        <p>
+          🌟 The event was graced by <b>Tapsi Upadhaya</b>, famously known as the <b>Viral Pani Puri Wali</b>, whose journey and words
+          of encouragement inspired students to take charge of their health and society.
+        </p>
+  
+        <h4><strong>Conclusion</strong></h4>
+        <p>
+          Mission Healthy Bharat successfully ignited awareness on critical issues, encouraging students to make conscious,
+          informed choices for a healthier, kinder, and sustainable future. Kudos to E-Cell NIT Patna for leading this vibrant initiative! 💚
+        </p>
+      </p>
+    ),
+    images: [
+      "/MHB/main.jpg",
+      
+      "/MHB/p2.jpg",
+      "/MHB/p3.jpg",
+      "/MHB/p4.jpg",
+      "/MHB/p5.jpg",
+    ]
+  },
+  {
     name: "BUSINESS SIMULATION WORKSHOP",
     url: "/BusinessSimulation/main.webp",
     details: (
@@ -423,104 +523,7 @@ export const eventlist = [
 
     ],
   },
-    {
-      name: "Youth_Jam_2025",
-      url: "/YouthJam2025/main.jpg",
-      details: (
-        <p>
-          <h3><strong>Youth Jam 2025: Celebrating Culture, Knowledge & Growth</strong></h3>
-          <p>
-            <b>Date:</b> January 11-12, 2025<br />
-            <b>Venue:</b> Vishweshwaraya Hall, NIT Patna
-          </p>
-          <p>
-            The <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna successfully hosted <b>Youth Jam 2025</b>, a vibrant two-day event
-            aimed at fostering intellectual development, cultural enrichment, and holistic growth among students. With enthusiastic
-            participation from the student community, the event became a true celebration of youth empowerment and creativity.
-          </p>
-          <hr />
-          <h4><strong>Event Highlights</strong></h4>
-    
-          <p>
-            <b>Day 1: January 11, 2025</b><br />
-            - Inaugural session by Dr. Om Ji Shukla, highlighting the importance of youth initiatives and innovation.<br />
-            - A dynamic Quiz Competition energized the participants and tested their knowledge and reflexes.
-          </p>
-    
-          <p>
-            <b>Day 2: January 12, 2025</b><br />
-            - Saraswati Vandana set a serene tone for the day.<br />
-            - A keynote session on Swami Vivekananda’s teachings, inspiring self-awareness and leadership.<br />
-            - Vedic Mathematics session by Shri Ramanand Acharya Ji enhanced problem-solving skills.<br />
-            - Yoga session by Shri Shwetank Anand Ji focused on mental and physical well-being.<br />
-            - Prize distribution for quiz winners acknowledged student achievements.<br />
-            - Concluding address by Dr. Om Ji Shukla emphasizing holistic development and future leadership.
-          </p>
-    
-          <h4><strong>Conclusion</strong></h4>
-          <p>
-            Youth Jam 2025 was a resounding success, offering a unique blend of tradition, intellect, and wellness.
-            Organized by E-Cell NIT Patna, the event showcased its commitment to nurturing young minds and building
-            a strong foundation for future leaders and innovators.
-          </p>
-        </p>
-      ),
-      images: [
-        "/YouthJam2025/main.jpg",
-        "/YouthJam2025/p1.jpg",
-        "/YouthJam2025/p2.jpg",
-        "/YouthJam2025/p3.jpg",
-        "/YouthJam2025/p4.jpg",
-        "/YouthJam2025/p5.jpg",
-        "YouthJam2025/p6.jpg",
-        "/YouthJam2025/p7.jpg",
-      ],
-    },
-    {
-      name: "Mission Healthy Bharat",
-      url: "/MHB/main.jpg",
-      details: (
-        <p>
-          <h3><strong>📢 Mission Healthy Bharat at NIT Patna! 🚴‍♀✨</strong></h3>
-          <p>
-            <b>Date:</b> March 26, 2025<br />
-            <b>Time:</b> 5:30 PM – 6:30 PM<br />
-            <b>Venue:</b> CV Raman Hall, NIT Patna
-          </p>
-          <p>
-            The <b>Entrepreneurship Cell (E-Cell)</b> of NIT Patna proudly organized <b>Mission Healthy Bharat</b>, an impactful
-            awareness campaign addressing four major social and environmental concerns. With enthusiastic participation and
-            inspiring discussions, the event created a powerful wave of awareness and motivation across campus.
-          </p>
-          <hr />
-          <h4><strong>Campaign Focus Areas</strong></h4>
-          <p>
-            ✅ <b>Health Education</b> – Empowering lives with the right knowledge! 📚🏥<br />
-            ✅ <b>Animal Cruelty</b> – Choose kindness, say no to cruelty! 🐾❌<br />
-            ✅ <b>Climate Change</b> – Protect nature, secure the future! 🌍🌿<br />
-            ✅ <b>Youth Empowerment</b> – Taking a step towards social upliftment! 🤝💡
-          </p>
-    
-          <h4><strong>Special Guest Appearance</strong></h4>
-          <p>
-            🌟 The event was graced by <b>Tapsi Upadhaya</b>, famously known as the <b>Viral Pani Puri Wali</b>, whose journey and words
-            of encouragement inspired students to take charge of their health and society.
-          </p>
-    
-          <h4><strong>Conclusion</strong></h4>
-          <p>
-            Mission Healthy Bharat successfully ignited awareness on critical issues, encouraging students to make conscious,
-            informed choices for a healthier, kinder, and sustainable future. Kudos to E-Cell NIT Patna for leading this vibrant initiative! 💚
-          </p>
-        </p>
-      ),
-      images: [
-        "/MHB/main.jpg",
-        
-        "/MHB/p2.jpg",
-        "/MHB/p3.jpg",
-        "/MHB/p4.jpg",
-        "/MHB/p5.jpg",
-      ]
-    }
+
 ];
+
+export const latestEvents = eventlist.slice(0,6);

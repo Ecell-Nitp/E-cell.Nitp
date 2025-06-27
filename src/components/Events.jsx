@@ -1,10 +1,9 @@
 import React from "react";
-import { eventlist } from "../store/eventlist";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
 
-function Events() {
+function Events({eventlist,showAll}) {
   return (
     <div
       id="events"
@@ -54,9 +53,7 @@ function Events() {
       </div>
 
       {/* All Events Button */}
-      <button className="px-6 py-2 font-medium border-2 border-gray-300 rounded-full hover:bg-gray-100 transition-colors mt-6">
-        View All Past Events
-      </button>
+      {showAll && <Link to='/allevents' className="px-6 py-2 font-medium border-2 border-gray-300 rounded-full hover:bg-gray-100 transition-colors mt-6">View All Past Events</Link>}
     </div>
   );
 }

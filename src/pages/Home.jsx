@@ -5,13 +5,14 @@ import About from '../components/About'
 import Events from '../components/Events'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
+import {latestEvents} from '../store/eventlist'
 function Home() {
   return (
     <div>
       <Heading/>
       <Welcome/>
       <About/>
-      <Events/>
+      <Events eventlist={latestEvents} showAll={true}/>
       <Team/>
       <Footer/>
     </div>
