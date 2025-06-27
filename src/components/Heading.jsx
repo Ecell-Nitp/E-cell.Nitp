@@ -1,88 +1,110 @@
 import React, { useState } from "react";
 import logo from "../assets/Logo.jpg";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { fadeIn } from "../variants.js";
 
-
 function Heading() {
-  const [isOpen, setIsOpen] = useState(false); // State to toggle mobile menu
+  const [isOpen, setIsOpen] = useState(false);
 
-  // Function to scroll to a component section
   const scrollToComponent = (id) => {
     const element = document.getElementById(id);
     if (element) {
       window.scrollTo({
-        top: element.offsetTop,
-        behavior: "smooth"
+        top: element.offsetTop - 80,
+        behavior: "smooth",
       });
+      setIsOpen(false);
     }
   };
 
+  const navItems = [
+    { label: "About", id: "about" },
+    { label: "Contact Us", id: "contact" },
+    { label: "Events", id: "events" },
+    { label: "Team", id: "team" },
+  ];
+
   return (
     <>
-      <nav className="bg-white sticky top-0 w-full z-10 shadow-md">
-        <div className="container mx-auto flex justify-between items-center p-3">
+      <motion.nav
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ type: "spring", stiffness: 50 }}
+        className="bg-white/80 backdrop-blur-md sticky top-0 w-full z-50 shadow"
+      >
+        <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
+          {/* Logo */}
           <motion.div
-            variants={fadeIn("left", 0.1)} // Slide in from the right
+            variants={fadeIn("left", 0.1)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.7 }}
-            className="flex items-center space-x-2">
+            className="flex items-center"
+          >
             <img
               src={logo}
               alt="E-Cell Logo"
-              className="w-[15vw] h-[10vw] md:w-[10vw] md:h-[5vw] "
+              className="w-[12vw] h-auto md:w-[8vw] max-w-[140px]"
             />
           </motion.div>
 
-          <motion.div 
-          variants={fadeIn("right", 0.1)} // Slide in from the right
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.7 }}
-          className="hidden md:flex items-center space-x-3">
-            <button onClick={() => scrollToComponent("about")} className="px-3 py-2 font-bold border-2 hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              About
-            </button>
-            <button onClick={() => scrollToComponent("contact")} className="px-3 py-2 font-bold border-2 hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              Contact Us
-            </button>
-            <button onClick={() => scrollToComponent("events")} className="px-3 py-2 font-bold border-2 hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              Events
-            </button>
-            <button onClick={() => scrollToComponent("team")} className="px-3 py-2 font-bold border-2 hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              Team
-            </button>
+          {/* Desktop Nav */}
+          <motion.div
+            variants={fadeIn("right", 0.1)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.7 }}
+            className="hidden md:flex items-center space-x-4"
+          >
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToComponent(item.id)}
+                className="px-5 py-2 font-semibold text-sm text-gray-800 rounded-full border border-[#0066ff] transition-all duration-300
+                hover:bg-gradient-to-r hover:from-indigo-100 hover:to-indigo-200 hover:text-indigo-700 hover:scale-105"
+              >
+                {item.label}
+              </button>
+            ))}
           </motion.div>
 
-          {/* Mobile Hamburger Menu */}
+          {/* Mobile Hamburger */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-3xl focus:outline-none"
+              className="text-3xl text-gray-800 focus:outline-none"
+              aria-label="Toggle menu"
             >
               ☰
             </button>
           </div>
         </div>
 
-        {isOpen && (
-          <div className="md:hidden flex flex-col items-center space-y-2 pb-4">
-            <button onClick={() => scrollToComponent("about")} className="px-3 py-2 font-bold border-2 w-[80%] text-center hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              About
-            </button>
-            <button onClick={() => scrollToComponent("contact")} className="px-3 py-2 font-bold border-2 w-[80%] text-center hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              Contact Us
-            </button>
-            <button onClick={() => scrollToComponent("events")} className="px-3 py-2 font-bold border-2 w-[80%] text-center hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              Events
-            </button>
-            <button onClick={() => scrollToComponent("team")} className="px-3 py-2 font-bold border-2 w-[80%] text-center hover:bg-gray-200 hover:text-blue-400 hover:underline rounded-full">
-              Team
-            </button>
-          </div>
-        )}
-      </nav>
+        {/* Mobile Dropdown Menu */}
+        <AnimatePresence>
+          {isOpen && (
+            <motion.div
+              key="mobile-menu"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="md:hidden flex flex-col items-center space-y-3 pb-4 bg-white shadow-sm"
+            >
+              {navItems.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToComponent(item.id)}
+                  className="w-[80%] text-center px-4 py-2 font-bold border rounded-full transition-all duration-300
+                  hover:bg-gradient-to-r hover:from-indigo-100 hover:to-indigo-200 text-gray-800 hover:text-indigo-700 hover:scale-105"
+                >
+                  {item.label}
+                </button>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.nav>
     </>
   );
 }
